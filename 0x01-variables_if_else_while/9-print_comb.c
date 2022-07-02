@@ -1,6 +1,6 @@
 #include <Stdlib.h>
 #include <time.h>
-#include <studio.h>
+#include <stdio.h>
 /**
  * main - Task 1 print the last digit of the number stored in the variable n
  *

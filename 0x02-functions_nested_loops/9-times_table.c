@@ -1,4 +1,5 @@
 #include "main.h"
+#include <main.h>
 /**
  * times_table - prints the 9 times table starting with 0
  * Return: Always 0
@@ -6,6 +7,9 @@
 void times_table(void)
 {
 	int j,i,n;
+	printf("Input upto the table number starting from 1 : ");
+	scanf("%d",&n);
+	printf("Multiplication table from 1 to %d \n",n);
 
 	for(i=0;i<=9;i++)
 	{

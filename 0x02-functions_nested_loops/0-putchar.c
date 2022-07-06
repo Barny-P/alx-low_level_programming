@@ -3,7 +3,7 @@
  * print_putchar - prints _putchar followed by a newline.
  * Return: 0
  */
-void putchar(void)
+void printputchar(void)
 {
 	_putchar('_');
 	_putchar('p');
